@@ -4,26 +4,22 @@
 */
 .wrapper {
     display: flex;
-    width: 1024px;
-    height: 768px;
-}
-#mynetwork {
+    height: 400px;
+  }
+  
+  #mynetwork {
     flex: 1;
     border: 1px solid #ddd;
-}
-.minimapRadar {
+  }
+  
+  #minimapRadar {
+      position: absolute;
+      background-color: transparent;
+      border: 1px solid grey;
+      user-select: none;
+  }
+  
+  .minimapImage {
     position: absolute;
-    background-color: rgba(16, 84, 154, 0.26);
-    cursor: move;
-}
-.minimapImage {
-    position: absolute;
-}
-.minimapWrapperIdle {
-    opacity: 0.2;
-    transition: opacity 0.5s;
-}
-.minimapWrapperMove {
-    opacity: 0.95;
-    transition: opacity 0.5s;
-}
+      user-select: none;
+  }
